@@ -1,0 +1,42 @@
+{
+  "app": "drone-deployment-management-dashboard",
+  "namespace": "drone_management_planning_v1",
+  "exportedAt": "2026-11-27T03:46:46.945Z",
+  "data": {
+    "version": 1,
+    "createdAt": "2026-11-27T03:46:46.467Z",
+    "updatedAt": "2026-11-27T03:46:46.467Z",
+    "deploymentPlans": [],
+    "localTeams": [],
+    "localCoordinates": {},
+    "localNotes": {},
+    "userPreferences": {
+      "apiUrlOverride": "",
+      "sheetNames": "",
+      "basemap": "osm",
+      "useLotTextCoordinates": true,
+      "splitMultiLocationRows": true,
+      "allowMultiTeamGlobal": false,
+      "multiTeamLocationIds": [],
+      "readinessRules": {
+        "minBatteries": 1,
+        "minUploadMbps": null,
+        "noCertifiedPilot": "warn",
+        "noVo": "warn",
+        "takeoffNeedsSterilization": "warn",
+        "vlosPartial": "warn",
+        "streamIssue": "warn",
+        "streamNotTested": "warn",
+        "streamCannot": "fail",
+        "coordinationInProgress": "warn",
+        "coordinationNotDone": "warn",
+        "restrictedAreaPresent": "warn",
+        "unknownValue": "warn",
+        "planRequiresVo": true,
+        "planRequiresCertifiedPilot": false
+      },
+      "showStatCards": true
+    },
+    "localAssignments": []
+  }
+}
