@@ -1,11 +1,11 @@
 {
   "app": "drone-deployment-management-dashboard",
   "namespace": "drone_management_planning_v1",
-  "exportedAt": "2026-11-27T03:47:48.126Z",
+  "exportedAt": "2026-11-27T03:49:11.411Z",
   "data": {
     "version": 1,
     "createdAt": "2026-11-16T01:25:28.271Z",
-    "updatedAt": "2026-11-27T03:47:45.978Z",
+    "updatedAt": "2026-11-27T03:49:06.451Z",
     "deploymentPlans": [
       {
         "id": "plan_28686c4b29e14527",
@@ -357,6 +357,27 @@
         "note": "Deteksi otomatis OSM Nominatim (disetujui): Pelabuhan ASDP, Jalan Pelabuhan, Kelurahan Hambala, Kecamatan Kota Waingapu, Sumba Timur, Nusa Tenggara Timur, 87111, Indonesia",
         "createdAt": "2026-11-27T02:47:40.197Z",
         "updatedAt": "2026-11-27T02:47:40.197Z"
+      },
+      "loc_form-responses-1_r17_0xq848q-p2": {
+        "lat": -6.92475,
+        "lon": 107.646277,
+        "note": "Deteksi otomatis OSM Nominatim (disetujui): Kiaracondong, Jalan H. Ibrahim Adjie, Kebonjayanti, Kiaracondong, Kota Bandung, Jawa Barat, 40283, Indonesia",
+        "createdAt": "2026-11-27T03:49:01.587Z",
+        "updatedAt": "2026-11-27T03:49:01.587Z"
+      },
+      "loc_form-responses-1_r17_0xq848q-p3": {
+        "lat": -6.705355,
+        "lon": 108.55535,
+        "note": "Deteksi otomatis OSM Nominatim (disetujui): Cirebon, Jalan Tanda Barat, Kebonbaru, Kejaksan, Cirebon, Jawa Barat, 45124, Indonesia",
+        "createdAt": "2026-11-27T03:49:04.373Z",
+        "updatedAt": "2026-11-27T03:49:04.373Z"
+      },
+      "loc_form-responses-1_r17_0xq848q-p4": {
+        "lat": -6.719417,
+        "lon": 108.558464,
+        "note": "Deteksi otomatis OSM Nominatim (disetujui): Cirebon Prujakan, Jalan Nyi Mas Gandasari, Pekalangan, Pekalipan, Cirebon, Jawa Barat, 45118, Indonesia",
+        "createdAt": "2026-11-27T03:49:06.451Z",
+        "updatedAt": "2026-11-27T03:49:06.451Z"
       }
     },
     "localNotes": {},
