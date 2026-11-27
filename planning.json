@@ -1,11 +1,11 @@
 {
   "app": "drone-deployment-management-dashboard",
   "namespace": "drone_management_planning_v1",
-  "exportedAt": "2026-11-27T08:32:39.108Z",
+  "exportedAt": "2026-11-27T08:32:45.773Z",
   "data": {
     "version": 1,
     "createdAt": "2026-11-16T01:25:28.271Z",
-    "updatedAt": "2026-11-27T08:32:35.553Z",
+    "updatedAt": "2026-11-27T08:32:42.116Z",
     "deploymentPlans": [
       {
         "id": "plan_28686c4b29e14527",
@@ -206,6 +206,48 @@
         "history": [
           {
             "at": "2026-11-27T08:32:35.553Z",
+            "action": "created",
+            "detail": "Rencana dibuat"
+          }
+        ]
+      },
+      {
+        "name": "Penempatan UPBU SULTAN M KAHARUDIN SUMBAWA",
+        "locationId": "loc_form-responses-1_r49_1m7fp3o",
+        "locationNameSnapshot": "UPBU SULTAN M KAHARUDIN SUMBAWA",
+        "unitKerjaSnapshot": "Kepala Kantor unit Penyelenggara Bandar Udara Kelas Ill Sultan Muhammad Kaharuddin",
+        "schedule": {
+          "startDate": "",
+          "endDate": "",
+          "startTime": "",
+          "endTime": ""
+        },
+        "shiftPattern": "Tim A 06:00-14:00; Tim B 14:00-22:00; Tim C 22:00-06:00",
+        "priority": "Sedang",
+        "status": "Draft",
+        "notes": "",
+        "team": {
+          "teamName": "Tim UPBU SULTAN M KAHARUDIN SUMBAWA",
+          "primaryPilotId": "loc_form-responses-1_r49_1m7fp3o::pilot1",
+          "secondPilotId": "loc_form-responses-1_r49_1m7fp3o::pilot2",
+          "vo1Id": "loc_form-responses-1_r49_1m7fp3o::vo1",
+          "vo2Id": "loc_form-responses-1_r49_1m7fp3o::vo2",
+          "drones": [
+            {
+              "poolId": "loc_form-responses-1_r49_1m7fp3o",
+              "typeLabel": "DJI AIR 3",
+              "quantity": 1
+            }
+          ]
+        },
+        "teamTemplateId": "loc_form-responses-1_r49_1m7fp3o::team",
+        "id": "plan_7f26f0e6f4834a04",
+        "createdAt": "2026-11-27T08:32:42.115Z",
+        "updatedAt": "2026-11-27T08:32:42.115Z",
+        "version": 1,
+        "history": [
+          {
+            "at": "2026-11-27T08:32:42.115Z",
             "action": "created",
             "detail": "Rencana dibuat"
           }
