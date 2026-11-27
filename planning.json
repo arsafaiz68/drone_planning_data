@@ -1,11 +1,11 @@
 {
   "app": "drone-deployment-management-dashboard",
   "namespace": "drone_management_planning_v1",
-  "exportedAt": "2026-11-27T08:33:08.496Z",
+  "exportedAt": "2026-11-27T08:33:26.421Z",
   "data": {
     "version": 1,
     "createdAt": "2026-11-16T01:25:28.271Z",
-    "updatedAt": "2026-11-27T08:32:42.116Z",
+    "updatedAt": "2026-11-27T08:33:22.817Z",
     "deploymentPlans": [
       {
         "id": "plan_28686c4b29e14527",
@@ -248,6 +248,48 @@
         "history": [
           {
             "at": "2026-11-27T08:32:42.115Z",
+            "action": "created",
+            "detail": "Rencana dibuat"
+          }
+        ]
+      },
+      {
+        "name": "Penempatan Unit Penyelenggara Bandar Udara kelas III Trunojoyo",
+        "locationId": "loc_form-responses-1_r51_1a4ypkj",
+        "locationNameSnapshot": "Unit Penyelenggara Bandar Udara kelas III Trunojoyo",
+        "unitKerjaSnapshot": "Kepala Kantor Unit Penyelenggara Bandar Udara Kelas Ill Trunojoyo",
+        "schedule": {
+          "startDate": "",
+          "endDate": "",
+          "startTime": "",
+          "endTime": ""
+        },
+        "shiftPattern": "07:00-16:00",
+        "priority": "Sedang",
+        "status": "Draft",
+        "notes": "",
+        "team": {
+          "teamName": "Tim Unit Penyelenggara Bandar Udara kelas III Trunojoyo",
+          "primaryPilotId": "loc_form-responses-1_r51_1a4ypkj::pilot1",
+          "secondPilotId": "loc_form-responses-1_r51_1a4ypkj::pilot2",
+          "vo1Id": null,
+          "vo2Id": null,
+          "drones": [
+            {
+              "poolId": "loc_form-responses-1_r51_1a4ypkj",
+              "typeLabel": "DJI MAVIC AIR 2",
+              "quantity": 1
+            }
+          ]
+        },
+        "teamTemplateId": "loc_form-responses-1_r51_1a4ypkj::team",
+        "id": "plan_88280c4ec6c64640",
+        "createdAt": "2026-11-27T08:33:22.815Z",
+        "updatedAt": "2026-11-27T08:33:22.815Z",
+        "version": 1,
+        "history": [
+          {
+            "at": "2026-11-27T08:33:22.816Z",
             "action": "created",
             "detail": "Rencana dibuat"
           }
