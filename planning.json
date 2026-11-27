@@ -1,14 +1,364 @@
 {
   "app": "drone-deployment-management-dashboard",
   "namespace": "drone_management_planning_v1",
-  "exportedAt": "2026-11-27T03:46:46.945Z",
+  "exportedAt": "2026-11-27T03:47:48.126Z",
   "data": {
     "version": 1,
-    "createdAt": "2026-11-27T03:46:46.467Z",
-    "updatedAt": "2026-11-27T03:46:46.467Z",
-    "deploymentPlans": [],
-    "localTeams": [],
-    "localCoordinates": {},
+    "createdAt": "2026-11-16T01:25:28.271Z",
+    "updatedAt": "2026-11-27T03:47:45.978Z",
+    "deploymentPlans": [
+      {
+        "id": "plan_28686c4b29e14527",
+        "name": "Penempatan \"Pelabuhan bulang linggi\", \"Pelabuhan ASDP\"",
+        "locationId": "loc_form-responses-1_r2_0yyj0se",
+        "locationNameSnapshot": "\"Pelabuhan bulang linggi\", \"Pelabuhan ASDP\"",
+        "unitKerjaSnapshot": "Kantor Unit Penyelenggara Pelabuhan Kelas I Tanjung Uban",
+        "schedule": {
+          "startDate": "",
+          "endDate": "",
+          "startTime": "",
+          "endTime": ""
+        },
+        "shiftPattern": "06:00-19:00",
+        "priority": "Sedang",
+        "status": "Draft",
+        "notes": "",
+        "team": {
+          "teamName": "Tim \"Pelabuhan bulang linggi\", \"Pelabuhan ASDP\"",
+          "primaryPilotId": "loc_form-responses-1_r2_0yyj0se::pilot1",
+          "secondPilotId": "loc_form-responses-1_r2_0yyj0se::pilot2",
+          "vo1Id": null,
+          "vo2Id": null,
+          "drones": [
+            {
+              "poolId": "loc_form-responses-1_r2_0yyj0se",
+              "typeLabel": "DJI Phantom 4",
+              "quantity": 1
+            }
+          ]
+        },
+        "teamTemplateId": "team_7ef5879ab36c458c",
+        "createdAt": "2026-11-21T18:46:08.742Z",
+        "updatedAt": "2026-11-21T18:46:08.742Z",
+        "version": 1,
+        "history": [
+          {
+            "at": "2026-11-21T18:46:08.742Z",
+            "action": "created",
+            "detail": "Rencana dibuat"
+          }
+        ]
+      },
+      {
+        "id": "plan_078581aafcf14229",
+        "name": "Penempatan Pelabuhan Gilimanuk",
+        "locationId": "loc_form-responses-1_r3_0esi21u",
+        "locationNameSnapshot": "Pelabuhan Gilimanuk",
+        "unitKerjaSnapshot": "Kantor Unit Penyelenggara Pelabuhan Kelas II Gilimanuk",
+        "schedule": {
+          "startDate": "",
+          "endDate": "",
+          "startTime": "",
+          "endTime": ""
+        },
+        "shiftPattern": "Tim A 08.00-20.00; Tim B 20.00-08.00",
+        "priority": "Sedang",
+        "status": "Draft",
+        "notes": "",
+        "team": {
+          "teamName": "Tim Pelabuhan Gilimanuk (baris 3)",
+          "primaryPilotId": "loc_form-responses-1_r3_0esi21u::pilot1",
+          "secondPilotId": "loc_form-responses-1_r3_0esi21u::pilot2",
+          "vo1Id": "loc_form-responses-1_r3_0esi21u::vo1",
+          "vo2Id": "loc_form-responses-1_r3_0esi21u::vo2",
+          "drones": [
+            {
+              "poolId": "loc_form-responses-1_r3_0esi21u",
+              "typeLabel": "DJI MINI 3 PRO",
+              "quantity": 1
+            }
+          ]
+        },
+        "teamTemplateId": "team_ee7649a27e8f4f78",
+        "createdAt": "2026-11-21T18:48:29.699Z",
+        "updatedAt": "2026-11-21T18:48:29.699Z",
+        "version": 1,
+        "history": [
+          {
+            "at": "2026-11-21T18:48:29.699Z",
+            "action": "created",
+            "detail": "Rencana dibuat"
+          }
+        ]
+      },
+      {
+        "id": "plan_d3ddc698e72b4882",
+        "name": "Penempatan Pelabuhan Labuan Bajo; Terminal Multipurpose Wae Kelambu",
+        "locationId": "loc_form-responses-1_r3_0gnb945",
+        "locationNameSnapshot": "Pelabuhan Labuan Bajo; Terminal Multipurpose Wae Kelambu",
+        "unitKerjaSnapshot": "Kantor Kesyahbandaran dan Otoritas Pelabuhan Kelas III Labuan Bajo",
+        "schedule": {
+          "startDate": "",
+          "endDate": "",
+          "startTime": "",
+          "endTime": ""
+        },
+        "shiftPattern": "Regu 1 08.00-08.00; Regu 2 08.00-08.00; Regu 3 08.00-08.00; Regu 4 08.00-08.00",
+        "priority": "Sedang",
+        "status": "Draft",
+        "notes": "",
+        "team": {
+          "teamName": "Tim Pelabuhan Labuan Bajo; Terminal Multipurpose Wae Kelambu",
+          "primaryPilotId": "loc_form-responses-1_r3_0gnb945::pilot1",
+          "secondPilotId": "loc_form-responses-1_r3_0gnb945::pilot2",
+          "vo1Id": "loc_form-responses-1_r3_0gnb945::vo1",
+          "vo2Id": "loc_form-responses-1_r3_0gnb945::vo2",
+          "drones": [
+            {
+              "poolId": "loc_form-responses-1_r3_0gnb945",
+              "typeLabel": "DJI Mini 4 Pro",
+              "quantity": 1
+            }
+          ]
+        },
+        "teamTemplateId": "team_a8de26e8285846f2",
+        "createdAt": "2026-11-21T18:48:38.314Z",
+        "updatedAt": "2026-11-21T18:48:38.314Z",
+        "version": 1,
+        "history": [
+          {
+            "at": "2026-11-21T18:48:38.314Z",
+            "action": "created",
+            "detail": "Rencana dibuat"
+          }
+        ]
+      }
+    ],
+    "localTeams": [
+      {
+        "teamName": "Tim \"Pelabuhan bulang linggi\", \"Pelabuhan ASDP\"",
+        "primaryPilotId": "loc_form-responses-1_r2_0yyj0se::pilot1",
+        "secondPilotId": "loc_form-responses-1_r2_0yyj0se::pilot2",
+        "vo1Id": null,
+        "vo2Id": null,
+        "drones": [
+          {
+            "poolId": "loc_form-responses-1_r2_0yyj0se",
+            "typeLabel": "DJI Phantom 4",
+            "quantity": 1
+          }
+        ],
+        "id": "team_7ef5879ab36c458c",
+        "homeLocationId": "loc_form-responses-1_r2_0yyj0se",
+        "description": "Dibuat dari rencana \"Penempatan \"Pelabuhan bulang linggi\", \"Pelabuhan ASDP\"\"",
+        "createdAt": "2026-11-21T18:46:08.741Z",
+        "updatedAt": "2026-11-21T18:46:08.741Z",
+        "version": 1
+      },
+      {
+        "teamName": "Tim Pelabuhan Gilimanuk (baris 3)",
+        "primaryPilotId": "loc_form-responses-1_r3_0esi21u::pilot1",
+        "secondPilotId": "loc_form-responses-1_r3_0esi21u::pilot2",
+        "vo1Id": "loc_form-responses-1_r3_0esi21u::vo1",
+        "vo2Id": "loc_form-responses-1_r3_0esi21u::vo2",
+        "drones": [
+          {
+            "poolId": "loc_form-responses-1_r3_0esi21u",
+            "typeLabel": "DJI MINI 3 PRO",
+            "quantity": 1
+          }
+        ],
+        "id": "team_ee7649a27e8f4f78",
+        "homeLocationId": "loc_form-responses-1_r3_0esi21u",
+        "description": "Dibuat dari rencana \"Penempatan Pelabuhan Gilimanuk\"",
+        "createdAt": "2026-11-21T18:48:29.699Z",
+        "updatedAt": "2026-11-21T18:48:29.699Z",
+        "version": 1
+      },
+      {
+        "teamName": "Tim Pelabuhan Labuan Bajo; Terminal Multipurpose Wae Kelambu",
+        "primaryPilotId": "loc_form-responses-1_r3_0gnb945::pilot1",
+        "secondPilotId": "loc_form-responses-1_r3_0gnb945::pilot2",
+        "vo1Id": "loc_form-responses-1_r3_0gnb945::vo1",
+        "vo2Id": "loc_form-responses-1_r3_0gnb945::vo2",
+        "drones": [
+          {
+            "poolId": "loc_form-responses-1_r3_0gnb945",
+            "typeLabel": "DJI Mini 4 Pro",
+            "quantity": 1
+          }
+        ],
+        "id": "team_a8de26e8285846f2",
+        "homeLocationId": "loc_form-responses-1_r3_0gnb945",
+        "description": "Dibuat dari rencana \"Penempatan Pelabuhan Labuan Bajo; Terminal Multipurpose Wae Kelambu\"",
+        "createdAt": "2026-11-21T18:48:38.313Z",
+        "updatedAt": "2026-11-21T18:48:38.313Z",
+        "version": 1
+      }
+    ],
+    "localCoordinates": {
+      "loc_form-responses-1_r2_0yyj0se": {
+        "lat": 1.0636367176458204,
+        "lon": 104.21716630636072,
+        "note": "",
+        "createdAt": "2026-11-21T18:38:19.837Z",
+        "updatedAt": "2026-11-21T18:38:19.837Z"
+      },
+      "loc_form-responses-1_r3_0esi21u": {
+        "lat": -8.162260931161853,
+        "lon": 114.43685845572841,
+        "note": "",
+        "createdAt": "2026-11-21T18:38:47.423Z",
+        "updatedAt": "2026-11-21T18:38:47.423Z"
+      },
+      "loc_form-responses-1_r5_06yex4q": {
+        "lat": -0.8777357037266916,
+        "lon": 131.24748793703796,
+        "note": "",
+        "createdAt": "2026-11-21T18:39:06.042Z",
+        "updatedAt": "2026-11-21T18:39:06.042Z"
+      },
+      "loc_form-responses-1_r6_1i9mwkk": {
+        "lat": -5.454536634250377,
+        "lon": 122.61019297938026,
+        "note": "",
+        "createdAt": "2026-11-21T18:39:28.483Z",
+        "updatedAt": "2026-11-21T18:39:28.483Z"
+      },
+      "loc_form-responses-1_r5_09cwvqz": {
+        "lat": -7.197648733095546,
+        "lon": 112.72946764844293,
+        "note": "",
+        "createdAt": "2026-11-21T18:39:57.351Z",
+        "updatedAt": "2026-11-21T18:39:57.351Z"
+      },
+      "loc_form-responses-1_r7_1ieljmk": {
+        "lat": -7.265326456242954,
+        "lon": 112.75261480512437,
+        "note": "",
+        "createdAt": "2026-11-21T18:40:16.909Z",
+        "updatedAt": "2026-11-21T18:40:16.909Z"
+      },
+      "loc_form-responses-1_r8_014yafe": {
+        "lat": 2.6602799281632663,
+        "lon": 98.93451089195833,
+        "note": "",
+        "createdAt": "2026-11-21T18:40:49.311Z",
+        "updatedAt": "2026-11-21T18:40:49.311Z"
+      },
+      "loc_form-responses-1_r10_0kkodqx": {
+        "lat": -0.8776070815709821,
+        "lon": 131.2489455950396,
+        "note": "",
+        "createdAt": "2026-11-21T18:41:04.925Z",
+        "updatedAt": "2026-11-21T18:41:04.925Z"
+      },
+      "loc_form-responses-1_r14_1rz223s": {
+        "lat": -6.914230735636113,
+        "lon": 107.60225832922649,
+        "note": "",
+        "createdAt": "2026-11-21T18:41:24.520Z",
+        "updatedAt": "2026-11-21T18:41:24.520Z"
+      },
+      "loc_form-responses-1_r12_0iiuzii": {
+        "lat": 3.7774447093591887,
+        "lon": 98.68009720858603,
+        "note": "",
+        "createdAt": "2026-11-21T18:41:55.245Z",
+        "updatedAt": "2026-11-21T18:41:55.245Z"
+      },
+      "loc_form-responses-1_r13_1f3lp8n": {
+        "lat": 3.7774447093591887,
+        "lon": 98.68009720858603,
+        "note": "",
+        "createdAt": "2026-11-21T18:42:05.209Z",
+        "updatedAt": "2026-11-21T18:42:05.209Z"
+      },
+      "loc_form-responses-1_r14_0mm7ql1": {
+        "lat": -5.923541247928919,
+        "lon": 105.99613462197627,
+        "note": "",
+        "createdAt": "2026-11-21T18:42:38.896Z",
+        "updatedAt": "2026-11-21T18:42:38.896Z"
+      },
+      "loc_form-responses-1_r15_04rt9wz": {
+        "lat": -10.138997099544044,
+        "lon": 123.67827174065202,
+        "note": "",
+        "createdAt": "2026-11-21T18:43:15.842Z",
+        "updatedAt": "2026-11-21T18:43:15.842Z"
+      },
+      "loc_form-responses-1_r16_0fnqkz9": {
+        "lat": -6.0230263340193755,
+        "lon": 106.08939050834425,
+        "note": "",
+        "createdAt": "2026-11-21T18:43:33.151Z",
+        "updatedAt": "2026-11-21T18:43:33.151Z"
+      },
+      "loc_form-responses-1_r17_0xq848q": {
+        "lat": -6.925031098955146,
+        "lon": 107.64637126033666,
+        "note": "",
+        "createdAt": "2026-11-21T18:43:50.959Z",
+        "updatedAt": "2026-11-21T18:43:50.959Z"
+      },
+      "loc_form-responses-1_r25_1hf9z8t": {
+        "lat": -3.5099923673813267,
+        "lon": 128.34540849655104,
+        "note": "",
+        "createdAt": "2026-11-21T18:44:10.795Z",
+        "updatedAt": "2026-11-21T18:44:10.795Z"
+      },
+      "loc_form-responses-1_r26_1i3arqd": {
+        "lat": 1.1241535478152522,
+        "lon": 103.92681499661096,
+        "note": "",
+        "createdAt": "2026-11-21T18:44:28.044Z",
+        "updatedAt": "2026-11-21T18:44:28.044Z"
+      },
+      "loc_form-responses-1_r34_0q99nvh": {
+        "lat": -8.705857851461966,
+        "lon": 115.26050856795776,
+        "note": "",
+        "createdAt": "2026-11-21T18:44:42.926Z",
+        "updatedAt": "2026-11-21T18:44:42.926Z"
+      },
+      "loc_form-responses-1_r35_1tb9sha": {
+        "lat": -6.964219829414853,
+        "lon": 110.42824140967717,
+        "note": "",
+        "createdAt": "2026-11-21T18:45:08.011Z",
+        "updatedAt": "2026-11-21T18:45:08.011Z"
+      },
+      "loc_form-responses-1_r36_0jifklr": {
+        "lat": -3.967750962182296,
+        "lon": 122.45876955841048,
+        "note": "",
+        "createdAt": "2026-11-21T18:45:26.111Z",
+        "updatedAt": "2026-11-21T18:45:26.111Z"
+      },
+      "loc_form-responses-1_r5_09cwvqz-p2": {
+        "lat": -7.19641,
+        "lon": 112.733065,
+        "note": "Deteksi otomatis OSM Nominatim (disetujui): Tanjung Perak Surabaya, Jalan Kalimas Baru, Terminal Jamrud, RW 03, Perak Utara, Pabean Cantian, Surabaya, Jawa Timur, 60155, Indonesia",
+        "createdAt": "2026-11-27T02:47:36.920Z",
+        "updatedAt": "2026-11-27T02:47:36.920Z"
+      },
+      "loc_form-responses-1_r8_014yafe-p2": {
+        "lat": 2.659423,
+        "lon": 98.934341,
+        "note": "Deteksi otomatis OSM Nominatim (disetujui): Pelabuhan Ajibata, Pardamean Ajibata, Sumatera Utara, Indonesia",
+        "createdAt": "2026-11-27T02:47:38.196Z",
+        "updatedAt": "2026-11-27T02:47:38.196Z"
+      },
+      "loc_form-responses-1_r2_0yyj0se-p2": {
+        "lat": -9.635937,
+        "lon": 120.245377,
+        "note": "Deteksi otomatis OSM Nominatim (disetujui): Pelabuhan ASDP, Jalan Pelabuhan, Kelurahan Hambala, Kecamatan Kota Waingapu, Sumba Timur, Nusa Tenggara Timur, 87111, Indonesia",
+        "createdAt": "2026-11-27T02:47:40.197Z",
+        "updatedAt": "2026-11-27T02:47:40.197Z"
+      }
+    },
     "localNotes": {},
     "userPreferences": {
       "apiUrlOverride": "",
@@ -17,7 +367,11 @@
       "useLotTextCoordinates": true,
       "splitMultiLocationRows": true,
       "allowMultiTeamGlobal": false,
-      "multiTeamLocationIds": [],
+      "multiTeamLocationIds": [
+        "loc_form-responses-1_r2_0yyj0se",
+        "loc_form-responses-1_r3_0esi21u",
+        "loc_form-responses-1_r3_0gnb945"
+      ],
       "readinessRules": {
         "minBatteries": 1,
         "minUploadMbps": null,
