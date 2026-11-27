@@ -1,11 +1,11 @@
 {
   "app": "drone-deployment-management-dashboard",
   "namespace": "drone_management_planning_v1",
-  "exportedAt": "2026-11-27T03:51:03.303Z",
+  "exportedAt": "2026-11-27T03:51:28.554Z",
   "data": {
     "version": 1,
     "createdAt": "2026-11-16T01:25:28.271Z",
-    "updatedAt": "2026-11-27T03:50:58.308Z",
+    "updatedAt": "2026-11-27T03:51:23.611Z",
     "deploymentPlans": [
       {
         "id": "plan_28686c4b29e14527",
@@ -441,6 +441,13 @@
         "note": "Deteksi otomatis OSM Nominatim (disetujui): Gedung bekas terminal Bandara Kemayoran, Jalan Rendani, RW 10, Gunung Sahari Selatan, Kemayoran, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, 10620, Indonesia",
         "createdAt": "2026-11-27T03:50:58.308Z",
         "updatedAt": "2026-11-27T03:50:58.308Z"
+      },
+      "loc_form-responses-1_r62_0o91wp9": {
+        "lat": 2.045572,
+        "lon": 128.324073,
+        "note": "Deteksi otomatis OSM Nominatim (disetujui): Bandar Udara Pitu Morotai, Jalan Mac Arthur - Trans Morotai, Wawama, Pulau Morotai, Maluku Utara, Indonesia",
+        "createdAt": "2026-11-27T03:51:23.611Z",
+        "updatedAt": "2026-11-27T03:51:23.611Z"
       }
     },
     "localNotes": {},
