@@ -1,11 +1,11 @@
 {
   "app": "drone-deployment-management-dashboard",
   "namespace": "drone_management_planning_v1",
-  "exportedAt": "2026-11-27T08:32:31.826Z",
+  "exportedAt": "2026-11-27T08:32:39.108Z",
   "data": {
     "version": 1,
     "createdAt": "2026-11-16T01:25:28.271Z",
-    "updatedAt": "2026-11-27T08:31:36.205Z",
+    "updatedAt": "2026-11-27T08:32:35.553Z",
     "deploymentPlans": [
       {
         "id": "plan_28686c4b29e14527",
@@ -170,6 +170,42 @@
         "history": [
           {
             "at": "2026-11-27T08:31:36.204Z",
+            "action": "created",
+            "detail": "Rencana dibuat"
+          }
+        ]
+      },
+      {
+        "name": "Penempatan -",
+        "locationId": "loc_form-responses-1_r48_12os0bl",
+        "locationNameSnapshot": "-",
+        "unitKerjaSnapshot": "Kepala Kantor Unit Penyelenggara Bandar Udara Kelas Ill Batom",
+        "schedule": {
+          "startDate": "",
+          "endDate": "",
+          "startTime": "",
+          "endTime": ""
+        },
+        "shiftPattern": "",
+        "priority": "Sedang",
+        "status": "Draft",
+        "notes": "",
+        "team": {
+          "teamName": "Tim -",
+          "primaryPilotId": null,
+          "secondPilotId": null,
+          "vo1Id": null,
+          "vo2Id": null,
+          "drones": []
+        },
+        "teamTemplateId": "loc_form-responses-1_r48_12os0bl::team",
+        "id": "plan_1dde8d28d2af4f27",
+        "createdAt": "2026-11-27T08:32:35.552Z",
+        "updatedAt": "2026-11-27T08:32:35.552Z",
+        "version": 1,
+        "history": [
+          {
+            "at": "2026-11-27T08:32:35.553Z",
             "action": "created",
             "detail": "Rencana dibuat"
           }
